@@ -1,5 +1,5 @@
 from authApp import app, init_db
-import authRoutes  # Ensure routes are registered
+import allRoutes  # Ensure routes are registered
 from notifications import notificationApp  # Import the notifications module
 
 if __name__ == '__main__':
